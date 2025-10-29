@@ -16,12 +16,13 @@ Skills Section: Lists technical skills including HTML, CSS, JavaScript, Node.js,
 
 Projects Section: Showcases my major academic and personal projects with live links and descriptions.
 
+Contact Form: Allows visitors to send messages or inquiries directly.
+
+Navigation Bar: Provides easy navigation between different sections of the portfolio
+
 **Tools used**
 
 HTML,CSS and JavaScript
 
 
 
-Contact Form: Allows visitors to send messages or inquiries directly.
-
-Navigation Bar: Provides easy navigation between different sections of the portfolio
