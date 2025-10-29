@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sachin Sourav</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?      family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="ubuntu-bold">
+  <!-- Header -->
+  <header>
+    <div class="logo">My Portfolio</div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="ubuntu-bold">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <!-- Light/Dark Toggle -->
+    <label class="theme-toggle">
+      <input type="checkbox" id="themeSwitch">
+      <span class="toggle-slider"></span>
+    </label>
+  </header>
+
+  <!-- Main Content -->
+  <section id="home">
+    <div class="part1">
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Sachin-SOURAV-007/My_portfolio"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <h1>I'm Sachin Sourav</h1>
+      <p class="ubuntu-bold">
+         I’m a dedicated web developer currently pursuing my MCA( 2025-2027 ). 
+      </p>
+      <p>I enjoy solving complex problems,
+      designing clean interfaces, and continuously learning new technologies to enhance my skills.</p>
+      <button><a href="#projects">View Projects</a></button>
+      
+    </div>
+    <!-- <div class="part2">
+      <img src="./assets/me.jpg" alt="">
+    </div> -->
+  </section>
+
+  <div class="skills">
+    <p>SKILLS</p>
+    <marquee behavior="" direction="right">
+      <div class="rtl">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css"></i>
+          <i class="fa-brands fa-java"></i>
+          <i class="fa-brands fa-python"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-node-js"></i>
+          <i class="fa-solid fa-database"></i>
+      </div>
+    </marquee>
+    <p>SKILLS</p>
+  </div>
+
+  <div class="about">
+    <h1 id="about">ABOUT</h1>
+    <div class="hero">
+      <div class="part1">
+        <img src="./assets/me.jpg" alt="">
+      </div>
+      <div class="part2">
+        <h3><i class="fa-solid fa-arrow-right"></i> Crafting seamless user experiences with a full-stack perspective.</h3>
+        <p><i class="fa-solid fa-arrow-right"></i> I'm a Front-End Developer specializing in intuitive interfaces, backed by robust server-side logic using Node.js, Express, and efficient data management with MySQL.</p>
+        <h2>SKILLS ACQUIRED <i class="fa-solid fa-arrow-trend-up"></i></h2>
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>NodeJs</span>
+        <span>Express</span>
+        <span>MySQL</span>
+        <span>Java</span>
+        <span>Python</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="skills">
+    <p>SKILLS</p>
+    <marquee behavior="" direction="left">
+      <div class="rtl">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css"></i>
+          <i class="fa-brands fa-java"></i>
+          <i class="fa-brands fa-python"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-node-js"></i>
+          <i class="fa-solid fa-database"></i>
+      </div>
+    </marquee>
+    <p>SKILLS</p>
+  </div>
+
+  <div class="projects" id="projects">
+    <h1>PROJECTS</h1>
+    <div class="part1">
+      <label>PROJECT 1</label>
+      <h2>Calculator</h2>
+      <p>Beautiful Calculator using HTML5, CSS3 and JavaScript</p>
+      <button><a href="calculator.html">Preview <i class="fa-solid fa-magnifying-glass"></i></a></button>
+    </div>
+
+    <div class="part2">
+      <label>PROJECT 2</label>
+      <h2>Weather App</h2>
+      <p>A simple weather prediction website using HTML, CSS, and JavaScript fetching live API data.</p>
+      <button><a href="weather.html">Preview <i class="fa-solid fa-magnifying-glass"></i></a></button>
+    </div>
+
+    <div class="part1">
+      <label>PROJECT 3</label>
+      <h2>Login Page</h2>
+      <p>A clean and functional login page design using HTML and CSS with focus on UI.</p>
+      <button>Preview <i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <h1>CONTACT</h1>
+    <form action="submit" target="_blank">
+      <label for="name">Name</label>
+      <input type="text" placeholder="Enter Your Name" id="name">
+      <label for="email">Email</label>
+      <input type="email" placeholder="Enter Your email" id="email">
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button>Submit</button>
+    </form>
+    </div>
+  </div>
+
+  <footer>
+     <p>© 2025 [ Sachin Sourav ]. All rights reserved.</p>
+     <div class="social">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Sachin-SOURAV-007/My_portfolio"><i class="fa-brands fa-github"></i></a>
+      </div>
+  </footer>
+
+
+  <script>
+    // Simple JS for theme toggle (optional enhancement)
+    const themeSwitch = document.getElementById('themeSwitch');
+    themeSwitch.addEventListener('change', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
